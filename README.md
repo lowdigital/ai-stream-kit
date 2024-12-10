@@ -1,6 +1,6 @@
-# AI STREAM KIT: AI Translations for SpongeBob
+# AI STREAM KIT: AI Scenarios for SpongeBob
 
-AI STREAM KIT is a comprehensive project designed to organize AI-generated translations and voiceovers for SpongeBob scenarios. Leveraging advanced technologies like RVC (Retrieval-based Voice Conversion) and RVC TTS (Text-to-Speech), this toolkit automates the creation of engaging and dynamic content for SpongeBob enthusiasts and content creators.
+AI STREAM KIT is a comprehensive project designed to organize AI-generated voiceovers for SpongeBob scenarios. Leveraging advanced technologies like RVC (Retrieval-based Voice Conversion) and RVC TTS (Text-to-Speech), this toolkit automates the creation of engaging and dynamic content for SpongeBob enthusiasts and content creators.
 
 ## Table of Contents
 
@@ -57,8 +57,8 @@ Before you begin, ensure you have met the following requirements:
 - **Python Version:** Python 3.7 or higher
 - **Dependencies:** Git, pip
 - **External Tools:**
-  - RVC: [Installation Guide](#)
-  - RVC TTS: [Installation Guide](#)
+  - RVC: [Installation Guide](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+  - RVC TTS: [Installation Guide](https://github.com/litagin02/rvc-tts-webui)
   - Gradio: Ensure Gradio app is running on `http://127.0.0.1:7860/`
 
 ### Cloning the Repository
@@ -111,8 +111,6 @@ STREAM_ID=YOUR_YOUTUBE_STREAM_ID
 PROXY_HTTP=http://USERNAME:PASSWORD@IP:PORT
 PROXY_HTTPS=http://USERNAME:PASSWORD@IP:PORT
 ```
-
-**Note:** Replace the placeholder values with your actual configuration details.
 
 ### Setting Up RVC and RVC TTS
 
@@ -234,3 +232,7 @@ Please ensure your code follows the project's coding standards and includes appr
 ## License
 
 This project is licensed under the MIT License.
+
+## Contacts
+
+Follow updates on the Telegram channel: [low digital](https://t.me/low_digital).
