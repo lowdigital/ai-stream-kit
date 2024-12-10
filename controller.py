@@ -7,10 +7,13 @@ import re
 import json
 from datetime import datetime
 from aiohttp import web
+from dotenv import load_dotenv
 
-API_DOMAIN  = ""
-GRADIO_PATH = "C:\\Users\\admin\\AppData\\Local\\Temp\\gradio"
-API_DEBUG   = True
+load_dotenv()
+
+API_DOMAIN  = os.getenv("API_DOMAIN")
+GRADIO_PATH = os.getenv("GRADIO_PATH")
+API_DEBUG   = os.getenv("API_DEBUG")
 
 generating = False
 

@@ -11,13 +11,16 @@ from flask import Flask, request, jsonify
 from gradio_client import Client
 from pytubefix import YouTube
 from pytubefix.cli import on_progress
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 gradio_client = Client("http://127.0.0.1:7860/")
 
 proxies = {
-    "http": "http://USERNAME:PASSWORD@IP:PORT",
-    "https": "http://USERNAME:PASSWORD@IP:PORT"
+    "http": os.getenv("PROXY")
+    "https": os.getenv("PROXY")
 }
 
 def print_colored_message(message):

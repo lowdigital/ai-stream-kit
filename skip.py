@@ -2,9 +2,12 @@ import time
 import pytchat
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
 
-API_DOMAIN  = ""
-STREAM_ID   = ""
+load_dotenv()
+
+API_DOMAIN  = os.getenv("API_DOMAIN")
+STREAM_ID   = os.getenv("STREAM_ID")
 
 def console_msg(message, color='white'):
     now = datetime.now()
