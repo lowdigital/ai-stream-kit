@@ -108,8 +108,8 @@ Create a `.env` file in the root directory of the project to store your configur
 API_DOMAIN=https://your-api-domain.com
 GRADIO_PATH=C:\Users\admin\AppData\Local\Temp\gradio
 STREAM_ID=YOUR_YOUTUBE_STREAM_ID
-PROXY_HTTP=http://USERNAME:PASSWORD@IP:PORT
-PROXY_HTTPS=http://USERNAME:PASSWORD@IP:PORT
+PROXY=http://USERNAME:PASSWORD@IP:PORT
+API_DEBUG=True
 ```
 
 ### Setting Up RVC and RVC TTS
