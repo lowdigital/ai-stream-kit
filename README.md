@@ -1,3 +1,6 @@
+![DEMO](demo.jpg)
+
+
 # AI STREAM KIT: AI Scenarios for SpongeBob
 
 AI STREAM KIT is a comprehensive project designed to organize AI-generated voiceovers for SpongeBob scenarios. Leveraging advanced technologies like RVC (Retrieval-based Voice Conversion) and RVC TTS (Text-to-Speech), this toolkit automates the creation of engaging and dynamic content for SpongeBob enthusiasts and content creators.
